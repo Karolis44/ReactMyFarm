@@ -4,7 +4,7 @@ export default function Circle({ sq, move }) {
 
       <div
 
-          className={sq.originalClassName}
+          className={sq.ClassName}
           onClick={_ => move(sq.id)}
       >
           {sq.digit}

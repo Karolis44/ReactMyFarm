@@ -30,7 +30,7 @@ export default function App() {
         digit: `A${rand(1000000, 9999999)}`,
         id: uuidv4(),
         type: 'Cows',
-        originalClassName: 'sq'
+        ClassName: 'sq'
         
     }));
 
@@ -38,7 +38,7 @@ export default function App() {
       digit: `K${rand(1000000, 9999999)}`,
       id: uuidv4(),
       type: 'Sheeps',
-      originalClassName: 'circle'
+      ClassName: 'circle'
 
   }));
 

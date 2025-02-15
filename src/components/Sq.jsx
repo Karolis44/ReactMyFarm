@@ -4,7 +4,7 @@ export default function Sq({ sq, move }) {
 
         <div
 
-            className={sq.originalClassName}
+            className={sq.ClassName}
             onClick={_ => move(sq.id)}
         >
             
